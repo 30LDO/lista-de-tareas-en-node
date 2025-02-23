@@ -143,7 +143,6 @@ const listar = () => {
       else
         console.log(`${chalk.yellowBright(lista[i].nombre)} \x1B[${45 -lista[i].nombre.length}C ${chalk.green("Completada")}`)
     }
-    // console.log(lista);
   }
   console.log("\n")
 };
